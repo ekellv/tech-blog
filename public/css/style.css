@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #DEF5E2;
+}
+
 header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
@@ -84,18 +88,19 @@ header, .project:not(:last-child) {
 }
 
 .post-title a:link{
-  color: #617ab7;
+  color: white;
   text-decoration: none;
 }
 
 .post-title a:visited{
-  color: #617ab7;
+  color: white;
   text-decoration: none;
+  font-weight: 900;
 }
 
 .post-title a:hover{
   text-decoration: none;
-  color: #0e506e;
+  color: white;
 }
 
 .post-content{
@@ -125,6 +130,8 @@ header, .project:not(:last-child) {
   display: block;
   position: relative;
   margin-bottom: 20px;
+  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .footer-margin{
@@ -162,6 +169,7 @@ header, .project:not(:last-child) {
 
 .single-post-container{
   margin-top: 20px;
+    border-radius: 5px;
 }
 
 .comment-container{
@@ -189,8 +197,10 @@ header, .project:not(:last-child) {
   margin-top: 20px;
   margin-left: 10px;
 }
+
 .dashboard-post{
   border: 1px #d3d3d3 solid;
+  border-radius: 10px;
 }
 
 .new-post-button{
@@ -200,4 +210,9 @@ header, .project:not(:last-child) {
 footer{
   margin-top: 60px;
   font-size: 1.4em;
+}
+
+.card-title {
+  background-color: #0E5819;
+  color: #03360B;
 }

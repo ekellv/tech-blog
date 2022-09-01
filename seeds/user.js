@@ -3,29 +3,29 @@ const { User } = require('../models');
 const userData =
 [
   {
-    "username": "leonis",
-    "email": "leonhsu95@gmail.com",
-    "password": "admin12345"
+    "username": "CharlieKelly",
+    "email": "charlie@paddys.com",
+    "password": "charliepassword"
   },
   {
-    "username": "saladtini",
-    "email": "lernantino@hotmail.com",
-    "password": "password12345"
+    "username": "RonaldMac",
+    "email": "mac@paddys.com",
+    "password": "macpassword"
   },
   {
-    "username": "zaconium",
-    "email": "zli0@gmail.com",
-    "password": "zacPW1234"
+    "username": "DennisReynolds",
+    "email": "dennis@paddys.com",
+    "password": "dennispassword"
   },
   {
-    "username": "amiChopsticks",
-    "email": "amiko@yahoo.com",
-    "password": "password12345"
+    "username": "DeeReynolds",
+    "email": "dee@paddys.com",
+    "password": "deepassword"
   },
   {
-    "username": "DallioHax",
-    "email": "dalliohax0@gmail.com",
-    "password": "dHaxer9519"
+    "username": "FrankReynolds",
+    "email": "frank@paddys.com",
+    "password": "frankpassword"
   }
 ]
 
